@@ -1,6 +1,6 @@
 public class Professor extends CollegePerson implements ITeachingPerson{
     //VARIABLES
-    public String teachingSubject;
+    private String teachingSubject;
     //METHOD
     public Professor(String name, String surname, int collegeId,String teachingSubject) {
         super(name, surname, collegeId);

@@ -1,6 +1,6 @@
 public class Student extends CollegePerson implements ILearningPerson{
     //VARIABLES
-    public int academicYear;
+    private int academicYear;
     //METHOD
     public Student(String name,String surname,int collegeId,int academicYear) {
         super(name,surname,collegeId);

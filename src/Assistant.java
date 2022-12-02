@@ -1,6 +1,6 @@
 public class Assistant extends CollegePerson implements ITeachingPerson,ILearningPerson {
     //VARIABLES
-    public boolean isGoingToBeAPhD;
+    private boolean isGoingToBeAPhD;
     //OVERRIDE METHOD
     @Override
     public void teachToOtherPeople() {

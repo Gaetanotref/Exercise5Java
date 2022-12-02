@@ -1,8 +1,8 @@
 public class CollegePerson {
     //VARIABLES
-    public String name;
-    public String surname;
-    public int collegeId;
+    private String name;
+    private String surname;
+    private int collegeId;
     //METHOD
     public CollegePerson(String name,String surname,int collegeId){
         this.name=name;
